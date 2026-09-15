@@ -6,7 +6,7 @@ body {
 }
 
 header {
-   background-color: #C1F7AB;
+   background-color: #050f01;
    color: #204212;
    text-align: center;
    padding: 30px;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-   color: #C1F7AB;
+   color: #53a134;
 }
 
 p {
@@ -32,7 +32,7 @@ nav {
 nav a {
    color: white;
    text-decoration: none;
-   background-color: #F5C700;
+   background-color: #12633d;
    padding: 10px 15px;
    border-radius: 8px;
    margin: 5px;
@@ -91,7 +91,7 @@ footer {
 }
 button{
    background-color: #0E4D02;
-   color:white;
+   color:rgb(5, 105, 19);
    border: none;
    padding:10px 15px;
    border-radius: 8px;
