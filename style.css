@@ -71,10 +71,10 @@ figcaption {
 }
 
 .card {
-   background-color: #f3d9fa;
+   background-color: #045f48;
    padding: 15px;
    margin-top: 15px 0;
-   border-left: 6px solid #6b2d5c;
+   border-left: 6px solid #08a784;
    border-radius: 10px;
 }
 
@@ -88,4 +88,16 @@ footer {
    text-align: center;
    padding: 20px;
    margin-top: 30px;
+}
+button{
+   background-color: #0E4D02;
+   color:white;
+   border: none;
+   padding:10px 15px;
+   border-radius: 8px;
+   cursor:pointer;
+
+}
+button:hover{
+   background-color: aliceblue;
 }
