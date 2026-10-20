@@ -12,15 +12,15 @@
 }
 
 body {
-   background-color: #0E4D02;
-   color: #D8E090;
+   background-color:var(--cor-fundo);
+   color: var(--cor-texto);
    font-family: Arial, sans-serif;
    margin: 0;
 }
 
 header {
-   background-color: #050f01;
-   color: #204212;
+   background-color:var(--cor-principal);
+   color:var(--cor-clara);
    text-align: center;
    padding: 30px;
 }
@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-   color: #53a134;
+   color:var(--cor-principal);
 }
 
 p {
@@ -43,9 +43,9 @@ nav {
 }
 
 nav a {
-   color: white;
+   color:var(--cor-clara);
    text-decoration: none;
-   background-color: #12633d;
+   background-color:var(--cor-segundaria);
    padding: 10px 15px;
    border-radius: 8px;
    margin: 5px;
@@ -53,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-   background-color: #332813;
+   background-color:var(--cor-houver);
 }
 
 main {
@@ -62,7 +62,7 @@ main {
 }
 
 section {
-   background-color: white;
+   background-color:var(--cor-superficie);
    margin: 20px 0;
    padding: 20px;
    border-radius: 12px;
@@ -79,15 +79,15 @@ img {
 figcaption {
    text-align: center;
    font-size: 14px;
-   color: #3B3509;
+   color:var(--cor-legenda);
    margin-top: 8px;
 }
 
 .card {
-   background-color: #045f48;
+   background-color:var(--cor-card);
    padding: 15px;
    margin-top: 15px 0;
-   border-left: 6px solid #08a784;
+   border-left: 6px solid var(--cor-principal);
    border-radius: 10px;
 }
 
@@ -96,15 +96,15 @@ figcaption {
 }
 
 footer {
-   background-color: #222222;
-   color: white;
+   background-color: var(--cor-rodape);
+   color:var(--cor-clara);
    text-align: center;
    padding: 20px;
    margin-top: 30px;
 }
 button{
-   background-color: #0E4D02;
-   color:rgb(5, 105, 19);
+   background-color:var(--cor-principal);
+   color:var(--cor-clara);
    border: none;
    padding:10px 15px;
    border-radius: 8px;
@@ -112,5 +112,10 @@ button{
 
 }
 button:hover{
-   background-color: aliceblue;
+   background-color:var(--cor-houver);
+}
+.curtir{
+   display: block;
+   width:fit-content;
+   margin:20px auto;
 }
